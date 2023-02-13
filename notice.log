@@ -1,0 +1,230 @@
+Nov 19 18:56:44.000 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) opening new log file.
+Nov 19 18:56:44.170 [notice] We compiled with OpenSSL 1010111f: OpenSSL 1.1.1q  5 Jul 2022 and we are running with OpenSSL 1010111f: 1.1.1q. These two versions should be binary compatible.
+Nov 19 18:56:44.181 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 1.1.1q, Zlib 1.2.12, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+Nov 19 18:56:44.181 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+Nov 19 18:56:44.199 [notice] Read configuration file "C:\Users\Jemuelx28\AppData\Roaming\tor\torrc".
+Nov 19 18:56:44.200 [notice] Based on detected system memory, MaxMemInQueues is set to 2048 MB. You can override this by setting MaxMemInQueues by hand.
+Nov 19 18:56:44.202 [notice] Opening Socks listener on 127.0.0.1:9050
+Nov 19 18:56:44.202 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9050
+Nov 19 18:56:44.203 [notice] Opening OR listener on 0.0.0.0:9051
+Nov 19 18:56:44.203 [notice] Opened OR listener connection (ready) on 0.0.0.0:9051
+Nov 19 18:56:44.203 [notice] Opening OR listener on [::]:9051
+Nov 19 18:56:44.203 [notice] Opened OR listener connection (ready) on [::]:9051
+Nov 19 18:56:44.203 [notice] Opening Extended OR listener on 127.0.0.1:0
+Nov 19 18:56:44.204 [notice] Extended OR listener listening on port 55276.
+Nov 19 18:56:44.204 [notice] Opened Extended OR listener connection (ready) on 127.0.0.1:55276
+Nov 19 18:56:44.000 [warn] CreateProcessA() failed: The system cannot find the file specified.
+
+Nov 19 18:56:44.000 [warn] Pluggable Transport process terminated with status code 0
+Nov 19 18:56:44.000 [warn] Failed to start process: (null)
+Nov 19 18:56:44.000 [warn] Managed proxy at 'C:\Users\jemuelx28\AppData\Roaming\tor\obfs4proxy.exe' failed at launch.
+Nov 19 18:56:44.000 [notice] Parsing GEOIP IPv4 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip.
+Nov 19 18:56:44.000 [notice] Parsing GEOIP IPv6 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip6.
+Nov 19 18:56:44.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Nov 19 18:56:44.000 [notice] You are running a new relay. Thanks for helping the Tor network! If you wish to know what will happen in the upcoming weeks regarding its usage, have a look at https://blog.torproject.org/lifecycle-of-a-new-relay
+Nov 19 18:56:44.000 [notice] It looks like I need to generate and sign a new medium-term signing key, because I don't have one. To do that, I need to load (or create) the permanent master identity key. If the master identity key was not moved or encrypted with a passphrase, this will be done automatically and no further action is required. Otherwise, provide the necessary data using 'tor --keygen' to do it manually.
+Nov 19 18:56:44.000 [notice] Your Tor server's identity key  fingerprint is 'jem 5B74374F415F518049E3FA6DB95892C304B7410A'
+Nov 19 18:56:44.000 [notice] Your Tor bridge's hashed identity key  fingerprint is 'jem 4AB7B9648C6415854C035D6FB4E4C92D0AD126B0'
+Nov 19 18:56:44.000 [notice] Your Tor server's identity key ed25519 fingerprint is 'jem V/fvethzRwIG+cutzG//NNn5/XZJetqyj3H9KQeZf00'
+Nov 19 18:56:44.000 [notice] You can check the status of your bridge relay at https://bridges.torproject.org/status?id=4AB7B9648C6415854C035D6FB4E4C92D0AD126B0
+Nov 19 18:56:44.000 [notice] Bootstrapped 0% (starting): Starting
+Nov 19 18:56:45.000 [notice] Starting with guard context "default"
+Nov 19 18:56:47.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+Nov 19 18:56:47.000 [notice] Unable to find IPv4 address for ORPort 9051. You might want to specify IPv6Only to it or set an explicit address or set Address.
+Nov 19 18:56:47.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+Nov 19 18:56:48.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Nov 19 18:56:49.000 [notice] External address seen and suggested by a directory authority: 216.131.80.53
+Nov 19 18:56:49.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Nov 19 18:56:49.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+Nov 19 18:56:49.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Nov 19 18:56:49.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+Nov 19 18:56:51.000 [notice] Bootstrapped 100% (done): Done
+Nov 19 18:57:47.000 [notice] Now checking whether IPv4 ORPort 216.131.80.53:9051 is reachable... (this may take up to 20 minutes -- look for log messages indicating success)
+Nov 19 18:58:58.000 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) opening log file.
+Nov 19 18:58:57.988 [notice] We compiled with OpenSSL 1010111f: OpenSSL 1.1.1q  5 Jul 2022 and we are running with OpenSSL 1010111f: 1.1.1q. These two versions should be binary compatible.
+Nov 19 18:58:57.999 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 1.1.1q, Zlib 1.2.12, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+Nov 19 18:58:58.000 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+Nov 19 18:58:58.016 [notice] Read configuration file "C:\Users\Jemuelx28\AppData\Roaming\tor\torrc".
+Nov 19 18:58:58.017 [notice] Based on detected system memory, MaxMemInQueues is set to 2048 MB. You can override this by setting MaxMemInQueues by hand.
+Nov 19 18:58:58.019 [notice] Opening Socks listener on 127.0.0.1:9050
+Nov 19 18:58:58.019 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9050
+Nov 19 18:58:58.019 [notice] Opening OR listener on 0.0.0.0:9051
+Nov 19 18:58:58.019 [notice] Opened OR listener connection (ready) on 0.0.0.0:9051
+Nov 19 18:58:58.019 [notice] Opening OR listener on [::]:9051
+Nov 19 18:58:58.020 [notice] Opened OR listener connection (ready) on [::]:9051
+Nov 19 18:58:58.020 [notice] Opening Extended OR listener on 127.0.0.1:0
+Nov 19 18:58:58.021 [notice] Extended OR listener listening on port 55304.
+Nov 19 18:58:58.021 [notice] Opened Extended OR listener connection (ready) on 127.0.0.1:55304
+Nov 19 18:58:58.000 [warn] CreateProcessA() failed: The system cannot find the file specified.
+
+Nov 19 18:58:58.000 [warn] Pluggable Transport process terminated with status code 0
+Nov 19 18:58:58.000 [warn] Failed to start process: (null)
+Nov 19 18:58:58.000 [warn] Managed proxy at 'C:\Users\jemuelx28\AppData\Roaming\tor\obfs4proxy.exe' failed at launch.
+Nov 19 18:58:58.000 [notice] Parsing GEOIP IPv4 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip.
+Nov 19 18:58:58.000 [notice] Parsing GEOIP IPv6 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip6.
+Nov 19 18:58:58.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Nov 19 18:58:59.000 [notice] Your Tor server's identity key  fingerprint is 'jem 5B74374F415F518049E3FA6DB95892C304B7410A'
+Nov 19 18:58:59.000 [notice] Your Tor bridge's hashed identity key  fingerprint is 'jem 4AB7B9648C6415854C035D6FB4E4C92D0AD126B0'
+Nov 19 18:58:59.000 [notice] Your Tor server's identity key ed25519 fingerprint is 'jem V/fvethzRwIG+cutzG//NNn5/XZJetqyj3H9KQeZf00'
+Nov 19 18:58:59.000 [notice] You can check the status of your bridge relay at https://bridges.torproject.org/status?id=4AB7B9648C6415854C035D6FB4E4C92D0AD126B0
+Nov 19 18:58:59.000 [notice] Bootstrapped 0% (starting): Starting
+Nov 19 18:59:00.000 [notice] Starting with guard context "default"
+Nov 19 18:59:06.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+Nov 19 18:59:06.000 [notice] Unable to find IPv4 address for ORPort 9051. You might want to specify IPv6Only to it or set an explicit address or set Address.
+Nov 19 18:59:06.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+Nov 19 18:59:07.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Nov 19 18:59:07.000 [notice] External address seen and suggested by a directory authority: 216.131.80.53
+Nov 19 18:59:07.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Nov 19 18:59:07.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+Nov 19 18:59:08.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Nov 19 18:59:08.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+Nov 19 18:59:44.000 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) opening log file.
+Nov 19 18:59:44.285 [notice] We compiled with OpenSSL 1010111f: OpenSSL 1.1.1q  5 Jul 2022 and we are running with OpenSSL 1010111f: 1.1.1q. These two versions should be binary compatible.
+Nov 19 18:59:44.296 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 1.1.1q, Zlib 1.2.12, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+Nov 19 18:59:44.296 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+Nov 19 18:59:44.312 [notice] Read configuration file "C:\Users\Jemuelx28\AppData\Roaming\tor\torrc".
+Nov 19 18:59:44.313 [notice] Based on detected system memory, MaxMemInQueues is set to 2048 MB. You can override this by setting MaxMemInQueues by hand.
+Nov 19 18:59:44.314 [notice] Opening Socks listener on 127.0.0.1:9050
+Nov 19 18:59:44.315 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9050
+Nov 19 18:59:44.315 [notice] Opening OR listener on 0.0.0.0:9051
+Nov 19 18:59:44.316 [notice] Opened OR listener connection (ready) on 0.0.0.0:9051
+Nov 19 18:59:44.316 [notice] Opening OR listener on [::]:9051
+Nov 19 18:59:44.316 [notice] Opened OR listener connection (ready) on [::]:9051
+Nov 19 18:59:44.316 [notice] Opening Extended OR listener on 127.0.0.1:0
+Nov 19 18:59:44.316 [notice] Extended OR listener listening on port 55321.
+Nov 19 18:59:44.317 [notice] Opened Extended OR listener connection (ready) on 127.0.0.1:55321
+Nov 19 18:59:44.000 [warn] CreateProcessA() failed: The system cannot find the file specified.
+
+Nov 19 18:59:44.000 [warn] Pluggable Transport process terminated with status code 0
+Nov 19 18:59:44.000 [warn] Failed to start process: (null)
+Nov 19 18:59:44.000 [warn] Managed proxy at 'C:\Users\jemuelx28\AppData\Roaming\tor\obfs4proxy.exe' failed at launch.
+Nov 19 18:59:44.000 [notice] Parsing GEOIP IPv4 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip.
+Nov 19 18:59:44.000 [notice] Parsing GEOIP IPv6 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip6.
+Nov 19 18:59:44.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Nov 19 18:59:45.000 [notice] Your Tor server's identity key  fingerprint is 'jem 5B74374F415F518049E3FA6DB95892C304B7410A'
+Nov 19 18:59:45.000 [notice] Your Tor bridge's hashed identity key  fingerprint is 'jem 4AB7B9648C6415854C035D6FB4E4C92D0AD126B0'
+Nov 19 18:59:45.000 [notice] Your Tor server's identity key ed25519 fingerprint is 'jem V/fvethzRwIG+cutzG//NNn5/XZJetqyj3H9KQeZf00'
+Nov 19 18:59:45.000 [notice] You can check the status of your bridge relay at https://bridges.torproject.org/status?id=4AB7B9648C6415854C035D6FB4E4C92D0AD126B0
+Nov 19 18:59:45.000 [notice] Bootstrapped 0% (starting): Starting
+Nov 19 18:59:46.000 [notice] Starting with guard context "default"
+Nov 19 18:59:52.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+Nov 19 18:59:52.000 [notice] Unable to find IPv4 address for ORPort 9051. You might want to specify IPv6Only to it or set an explicit address or set Address.
+Nov 19 18:59:53.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+Nov 19 18:59:53.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Nov 19 18:59:54.000 [notice] External address seen and suggested by a directory authority: 216.131.80.53
+Nov 19 18:59:54.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Nov 19 18:59:54.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+Nov 19 18:59:54.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Nov 19 18:59:54.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+Nov 19 18:59:56.000 [notice] Bootstrapped 100% (done): Done
+Nov 19 19:00:53.000 [notice] Now checking whether IPv4 ORPort 216.131.80.53:9051 is reachable... (this may take up to 20 minutes -- look for log messages indicating success)
+Nov 19 19:13:13.000 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) opening log file.
+Nov 19 19:13:13.491 [notice] We compiled with OpenSSL 1010111f: OpenSSL 1.1.1q  5 Jul 2022 and we are running with OpenSSL 1010111f: 1.1.1q. These two versions should be binary compatible.
+Nov 19 19:13:13.502 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 1.1.1q, Zlib 1.2.12, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+Nov 19 19:13:13.502 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+Nov 19 19:13:13.518 [notice] Read configuration file "C:\Users\Jemuelx28\AppData\Roaming\tor\torrc".
+Nov 19 19:13:13.519 [notice] Based on detected system memory, MaxMemInQueues is set to 2048 MB. You can override this by setting MaxMemInQueues by hand.
+Nov 19 19:13:13.521 [notice] Opening Socks listener on 127.0.0.1:9050
+Nov 19 19:13:13.521 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9050
+Nov 19 19:13:13.521 [notice] Opening OR listener on 0.0.0.0:9051
+Nov 19 19:13:13.522 [notice] Opened OR listener connection (ready) on 0.0.0.0:9051
+Nov 19 19:13:13.522 [notice] Opening OR listener on [::]:9051
+Nov 19 19:13:13.522 [notice] Opened OR listener connection (ready) on [::]:9051
+Nov 19 19:13:13.522 [notice] Opening Extended OR listener on 127.0.0.1:0
+Nov 19 19:13:13.523 [notice] Extended OR listener listening on port 55721.
+Nov 19 19:13:13.523 [notice] Opened Extended OR listener connection (ready) on 127.0.0.1:55721
+Nov 19 19:13:13.000 [warn] CreateProcessA() failed: The system cannot find the file specified.
+
+Nov 19 19:13:13.000 [warn] Pluggable Transport process terminated with status code 0
+Nov 19 19:13:13.000 [warn] Failed to start process: (null)
+Nov 19 19:13:13.000 [warn] Managed proxy at 'C:\Users\jemuelx28\AppData\Roaming\tor\obfs4proxy.exe' failed at launch.
+Nov 19 19:13:13.000 [notice] Parsing GEOIP IPv4 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip.
+Nov 19 19:13:13.000 [notice] Parsing GEOIP IPv6 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip6.
+Nov 19 19:13:13.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Nov 19 19:13:14.000 [notice] Your Tor server's identity key  fingerprint is 'jem 5B74374F415F518049E3FA6DB95892C304B7410A'
+Nov 19 19:13:14.000 [notice] Your Tor bridge's hashed identity key  fingerprint is 'jem 4AB7B9648C6415854C035D6FB4E4C92D0AD126B0'
+Nov 19 19:13:14.000 [notice] Your Tor server's identity key ed25519 fingerprint is 'jem V/fvethzRwIG+cutzG//NNn5/XZJetqyj3H9KQeZf00'
+Nov 19 19:13:14.000 [notice] You can check the status of your bridge relay at https://bridges.torproject.org/status?id=4AB7B9648C6415854C035D6FB4E4C92D0AD126B0
+Nov 19 19:13:14.000 [notice] Bootstrapped 0% (starting): Starting
+Nov 19 19:13:15.000 [notice] Starting with guard context "default"
+Nov 19 19:13:25.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+Nov 19 19:13:25.000 [notice] Unable to find IPv4 address for ORPort 9051. You might want to specify IPv6Only to it or set an explicit address or set Address.
+Nov 19 19:13:28.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+Nov 19 19:13:30.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Nov 19 19:13:31.000 [notice] External address seen and suggested by a directory authority: 216.131.80.53
+Nov 19 19:13:31.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Nov 19 19:13:31.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+Nov 19 19:13:31.000 [notice] Bootstrapped 89% (ap_handshake): Finishing handshake with a relay to build circuits
+Nov 19 19:13:32.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Nov 19 19:13:32.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+Nov 19 19:14:11.000 [notice] Bootstrapped 100% (done): Done
+Nov 19 19:14:25.000 [notice] Now checking whether IPv4 ORPort 216.131.80.53:9051 is reachable... (this may take up to 20 minutes -- look for log messages indicating success)
+Nov 19 19:15:19.000 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) opening log file.
+Nov 19 19:15:19.684 [notice] We compiled with OpenSSL 1010111f: OpenSSL 1.1.1q  5 Jul 2022 and we are running with OpenSSL 1010111f: 1.1.1q. These two versions should be binary compatible.
+Nov 19 19:15:19.696 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 1.1.1q, Zlib 1.2.12, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+Nov 19 19:15:19.696 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+Nov 19 19:15:19.710 [notice] Read configuration file "C:\Users\Jemuelx28\AppData\Roaming\tor\torrc".
+Nov 19 19:15:19.712 [notice] Based on detected system memory, MaxMemInQueues is set to 2048 MB. You can override this by setting MaxMemInQueues by hand.
+Nov 19 19:15:19.714 [notice] Opening Socks listener on 127.0.0.1:9050
+Nov 19 19:15:19.714 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9050
+Nov 19 19:15:19.714 [notice] Opening OR listener on 0.0.0.0:9051
+Nov 19 19:15:19.715 [notice] Opened OR listener connection (ready) on 0.0.0.0:9051
+Nov 19 19:15:19.715 [notice] Opening OR listener on [::]:9051
+Nov 19 19:15:19.715 [notice] Opened OR listener connection (ready) on [::]:9051
+Nov 19 19:15:19.715 [notice] Opening Extended OR listener on 127.0.0.1:0
+Nov 19 19:15:19.715 [notice] Extended OR listener listening on port 55859.
+Nov 19 19:15:19.715 [notice] Opened Extended OR listener connection (ready) on 127.0.0.1:55859
+Nov 19 19:15:19.000 [warn] CreateProcessA() failed: The system cannot find the file specified.
+
+Nov 19 19:15:19.000 [warn] Pluggable Transport process terminated with status code 0
+Nov 19 19:15:19.000 [warn] Failed to start process: (null)
+Nov 19 19:15:19.000 [warn] Managed proxy at 'C:\Users\jemuelx28\AppData\Roaming\tor\obfs4proxy.exe' failed at launch.
+Nov 19 19:15:19.000 [notice] Parsing GEOIP IPv4 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip.
+Nov 19 19:15:19.000 [notice] Parsing GEOIP IPv6 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip6.
+Nov 19 19:15:20.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Nov 19 19:15:20.000 [notice] Your Tor server's identity key  fingerprint is 'jem 5B74374F415F518049E3FA6DB95892C304B7410A'
+Nov 19 19:15:20.000 [notice] Your Tor bridge's hashed identity key  fingerprint is 'jem 4AB7B9648C6415854C035D6FB4E4C92D0AD126B0'
+Nov 19 19:15:20.000 [notice] Your Tor server's identity key ed25519 fingerprint is 'jem V/fvethzRwIG+cutzG//NNn5/XZJetqyj3H9KQeZf00'
+Nov 19 19:15:20.000 [notice] You can check the status of your bridge relay at https://bridges.torproject.org/status?id=4AB7B9648C6415854C035D6FB4E4C92D0AD126B0
+Nov 19 19:15:20.000 [notice] Bootstrapped 0% (starting): Starting
+Nov 19 19:15:21.000 [notice] Starting with guard context "default"
+Nov 19 19:17:38.000 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) opening log file.
+Nov 19 19:17:38.389 [notice] We compiled with OpenSSL 1010111f: OpenSSL 1.1.1q  5 Jul 2022 and we are running with OpenSSL 1010111f: 1.1.1q. These two versions should be binary compatible.
+Nov 19 19:17:38.400 [notice] Tor 0.4.7.10 (git-f732a91a73be3ca6) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 1.1.1q, Zlib 1.2.12, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+Nov 19 19:17:38.400 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+Nov 19 19:17:38.416 [notice] Read configuration file "C:\Users\Jemuelx28\AppData\Roaming\tor\torrc".
+Nov 19 19:17:38.417 [notice] Based on detected system memory, MaxMemInQueues is set to 2048 MB. You can override this by setting MaxMemInQueues by hand.
+Nov 19 19:17:38.418 [notice] Opening Socks listener on 127.0.0.1:9050
+Nov 19 19:17:38.419 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9050
+Nov 19 19:17:38.419 [notice] Opening OR listener on 0.0.0.0:9051
+Nov 19 19:17:38.419 [notice] Opened OR listener connection (ready) on 0.0.0.0:9051
+Nov 19 19:17:38.419 [notice] Opening OR listener on [::]:9051
+Nov 19 19:17:38.419 [notice] Opened OR listener connection (ready) on [::]:9051
+Nov 19 19:17:38.419 [notice] Opening Extended OR listener on 127.0.0.1:0
+Nov 19 19:17:38.419 [notice] Extended OR listener listening on port 55978.
+Nov 19 19:17:38.420 [notice] Opened Extended OR listener connection (ready) on 127.0.0.1:55978
+Nov 19 19:17:38.000 [warn] CreateProcessA() failed: The system cannot find the file specified.
+
+Nov 19 19:17:38.000 [warn] Pluggable Transport process terminated with status code 0
+Nov 19 19:17:38.000 [warn] Failed to start process: (null)
+Nov 19 19:17:38.000 [warn] Managed proxy at 'C:\Users\jemuelx28\AppData\Roaming\tor\obfs4proxy.exe' failed at launch.
+Nov 19 19:17:38.000 [notice] Parsing GEOIP IPv4 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip.
+Nov 19 19:17:38.000 [notice] Parsing GEOIP IPv6 file C:\Users\jemuelx28\AppData\Roaming\tor\geoip6.
+Nov 19 19:17:38.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Nov 19 19:17:39.000 [notice] Your Tor server's identity key  fingerprint is 'jem 5B74374F415F518049E3FA6DB95892C304B7410A'
+Nov 19 19:17:39.000 [notice] Your Tor bridge's hashed identity key  fingerprint is 'jem 4AB7B9648C6415854C035D6FB4E4C92D0AD126B0'
+Nov 19 19:17:39.000 [notice] Your Tor server's identity key ed25519 fingerprint is 'jem V/fvethzRwIG+cutzG//NNn5/XZJetqyj3H9KQeZf00'
+Nov 19 19:17:39.000 [notice] You can check the status of your bridge relay at https://bridges.torproject.org/status?id=4AB7B9648C6415854C035D6FB4E4C92D0AD126B0
+Nov 19 19:17:39.000 [notice] Bootstrapped 0% (starting): Starting
+Nov 19 19:17:40.000 [notice] Starting with guard context "default"
+Nov 19 19:17:49.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+Nov 19 19:17:50.000 [notice] Unable to find IPv4 address for ORPort 9051. You might want to specify IPv6Only to it or set an explicit address or set Address.
+Nov 19 19:17:50.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+Nov 19 19:17:51.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Nov 19 19:17:52.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Nov 19 19:17:52.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+Nov 19 19:17:52.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Nov 19 19:17:52.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+Nov 19 19:17:52.000 [notice] External address seen and suggested by a directory authority: 216.131.80.53
+Nov 19 19:17:57.000 [notice] Bootstrapped 100% (done): Done
+Nov 19 19:18:50.000 [notice] Now checking whether IPv4 ORPort 216.131.80.53:9051 is reachable... (this may take up to 20 minutes -- look for log messages indicating success)

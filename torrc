@@ -1,0 +1,30 @@
+Log notice file C:\Users\jemuelx28\AppData\Roaming\tor\notice.log
+GeoIPFile C:\Users\jemuelx28\AppData\Roaming\tor\geoip
+GeoIPv6File C:\Users\jemuelx28\AppData\Roaming\tor\geoip6
+
+BridgeRelay 1
+ExitNodes {us},{ca}
+MaxCircuitDirtiness 30
+
+# Replace "TODO1" with a Tor port of your choice.
+# This port must be externally reachable.
+# Avoid port 9001 because it's commonly associated with Tor and censors may be scanning the Internet for this port.
+ORPort 9051
+
+ServerTransportPlugin obfs4 exec C:\Users\jemuelx28\AppData\Roaming\tor\obfs4proxy.exe
+
+# Replace "TODO2" with an obfs4 port of your choice.
+# This port must be externally reachable and must be different from the one specified for ORPort.
+# Avoid port 9001 because it's commonly associated with Tor and censors may be scanning the Internet for this port.
+ServerTransportListenAddr obfs4 0.0.0.0:9052
+
+# Local communication port between Tor and obfs4.  Always set this to "auto".
+# "Ext" means "extended", not "external".  Don't try to set a specific port number, nor listen on 0.0.0.0.
+ExtORPort auto
+
+# Replace "<address@email.com>" with your email address so we can contact you if there are problems with your bridge.
+# This is optional but encouraged.
+ContactInfo <safexfj@email.com>
+
+# Pick a nickname that you like for your bridge.  This is optional.
+Nickname jem
